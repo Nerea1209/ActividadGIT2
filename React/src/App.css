@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.App > div#mapa {
+  width: 500px;
+  display: inline-block;
+  background-color: rgb(71, 71, 79);
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.App > div#mapa > button {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 4rem;
+  margin: .4rem;
+}
+
+.App > button {
+  margin: 1rem;
+}
+
+div.confetti {
+  left: 17rem;
+  bottom: 15rem;
+  z-index: 1;
+}
